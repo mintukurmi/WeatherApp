@@ -1,0 +1,23 @@
+body {
+	background-image: url('../background.jpg');
+
+}
+
+.navbar-brand {
+  font-family: 'Kaushan Script';
+  color: gold;
+  text-transform: capitalize;
+  font-size: 28px !important; 
+}
+
+.navbar-brand:hover {
+	color: gold;
+}
+
+.lead {
+	margin-top: 25px;
+}
+
+#searchForm {
+	margin-top: 25px;
+}

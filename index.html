@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather Info - Get the Weather</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cyborg/bootstrap.min.css" />
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+<body>
+
+	<nav class="navbar navbar-default">
+		<div class="container"> 
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Weather Info</a>
+			</div>
+		</div>
+	</nav>
+  
+  	<div class="container">
+  		<div class="jumbotron text-center">
+		  <h4>Search the Weather</h4>
+		  <div class="container">
+		  <form id="searchForm">
+		  	<input type="text" class="form-control" placeholder="Enter a City Name" id="searchText"/>
+		  </form>
+		  <p class="lead">
+		    <button id="button" class="btn btn-primary btn-lg" value="Search">Search</button>
+		  </p>
+		</div>
+		  
+		  <hr class="my-4">
+		  
+
+		  <div id="output">
+		  	
+
+		  	<p> Search for weather</p>
+		  	<P>Tip: Type the City Name and press Enter</P>
+
+		  	<!-- <p> Weather forecast : New York City </p>
+			
+			<div style="margin-top: 30px" class="row">
+				<div class="col-md-4">
+					<h2>Today</h2>
+					<img src="http://openweathermap.org/img/w/10d.png" class="thumbnail">
+					<h6>Cloudy</h6>
+					<h4>32 ºC</h4>
+					
+					<div class="container">
+					<div class="row py-3">
+						<div class="col-md-6 list-group-item">
+							Humidity: 23
+						</div>
+
+						<div class="col-md-6 list-group-item">
+							Wind: 20 km/hr
+						</div>
+
+						<div class="col-md-6 list-group-item">
+							Pressure: 34
+						</div>
+						<div class="col-md-6 list-group-item">
+							Pressure: 34
+						</div>
+
+						<div class="col-md-6 list-group-item">
+							Humidity: 23
+						</div>
+
+						<div class="col-md-6 list-group-item">
+							Wind: 20 km/hr
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 py-4">
+					<h5 style="margin-left: 40px;">5 Day Forecast</h5>
+					<ul>
+						<li class="list-group-item"><strong>Humidity</strong> 24</li>
+						<li class="list-group-item"><strong>Wind:</strong> #0 km/hr</li>
+						<li class="list-group-item"><strong>Speed:</strong> 56 km/hr</li>
+						<li class="list-group-item"><strong>Tommorow:</strong>  Sunny</li>
+						<li class="list-group-item"><strong>Monday:</strong> 32 C</li>
+						<li class="list-group-item"><strong>TUesday:</strong> Sunny</li>
+
+
+					</ul>
+				</div>
+			</div> 
+
+		  </div>
+		  
+		</div>
+  	</div>
+
+  -->
+<p class="py-5">&copy; Weather Info Inc. 2018 </p>
+	
+<!-- JavaScripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+</html>
